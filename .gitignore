@@ -1,0 +1,20 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.tmp
+
+# Local agent/runtime output
+.env
+.env.*
+!.env.example
+.lgpd/
+privacy/*.csv
+!privacy/*.template.csv
+security/*.csv
+!security/*.template.csv
+
+# Python caches
+__pycache__/
+*.py[cod]

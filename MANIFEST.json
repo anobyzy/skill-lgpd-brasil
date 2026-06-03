@@ -1,0 +1,210 @@
+{
+  "name": "lgpd-saas-brasil-compliance-skill",
+  "version": "2.0.1",
+  "author": {
+    "name": "Anobyz",
+    "email": "arh.sabrina@gmail.com"
+  },
+  "generated_on": "2026-06-03",
+  "manifest_excludes": [
+    "MANIFEST.json",
+    ".git/"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 92,
+      "sha256": "52104e131c8f319a44fd898f6d3156aa94529b4ec4b78cddcda6f8aa629b2ced"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 247,
+      "sha256": "231703dbebb672a7d65e3d81cb30c1d5e209694ab56b8d96ddf226ee8abfd23a"
+    },
+    {
+      "path": ".lgpd-templates/automated-decisions.md",
+      "bytes": 215,
+      "sha256": "d6fefbec62e153643645675ecd71927f85edbb6b01f514caaf52f9762110e010"
+    },
+    {
+      "path": ".lgpd-templates/consent/consent-ledger.md",
+      "bytes": 320,
+      "sha256": "f61ff4b58b702f433ec677dcd3f96f5233eb477407280317c4187e61c720e19a"
+    },
+    {
+      "path": ".lgpd-templates/data-map.md",
+      "bytes": 286,
+      "sha256": "6d21d0bfea413459b349b8a80ef848a1b96ccf767032a7e59a482d44b9748361"
+    },
+    {
+      "path": ".lgpd-templates/dsar/dsar-runbook.md",
+      "bytes": 387,
+      "sha256": "f0821b0bab13f32f76710973a3fbb4a97bb4e3a086d78a451e15ee9260973e41"
+    },
+    {
+      "path": ".lgpd-templates/eca-digital.md",
+      "bytes": 380,
+      "sha256": "ec2b7e5644c74dd58ab4495d04a411d173bb0d56ffc72885b4d3341d7192cbfe"
+    },
+    {
+      "path": ".lgpd-templates/incidents/incident-runbook.md",
+      "bytes": 450,
+      "sha256": "6d90f89ca632028385bfff8d7712259c373116bf45d4c467100e47b1fed35cfa"
+    },
+    {
+      "path": ".lgpd-templates/legal-basis.md",
+      "bytes": 232,
+      "sha256": "18b522237ea12883319bf876bef56b53b7f721d224a9920701c483d6e77ee2a0"
+    },
+    {
+      "path": ".lgpd-templates/lia/lia-template.md",
+      "bytes": 378,
+      "sha256": "d9516949a6f33110a961625f2db64fb69131f9e07afa180027a52457ac96f75b"
+    },
+    {
+      "path": ".lgpd-templates/policies/privacy-policy-template.md",
+      "bytes": 331,
+      "sha256": "331c57f0da73289233239d29ef3e094dc913cc50ee776cb5fd7819925b5072ac"
+    },
+    {
+      "path": ".lgpd-templates/retention-schedule.md",
+      "bytes": 161,
+      "sha256": "896f06d69dd229f95eaf60c2da6456f984e58e2504a48ab1ecbce4c57cb1e0ca"
+    },
+    {
+      "path": ".lgpd-templates/RIPD/ripd-template.md",
+      "bytes": 386,
+      "sha256": "52c63b0ea20371c6d089642ae65f46e2d5a2a056e0cdac8c9e964fbf304fe6d2"
+    },
+    {
+      "path": ".lgpd-templates/ROPA.md",
+      "bytes": 338,
+      "sha256": "5c01a43c9032f63e0705834e7be03f19b0be3f46628355cad81cff1a6825334e"
+    },
+    {
+      "path": ".lgpd-templates/security/encryption.md",
+      "bytes": 137,
+      "sha256": "c77602e54b8f8119b02f318e67d75325dcc519d5a40ac233ed779e90dd3e5aab"
+    },
+    {
+      "path": ".lgpd-templates/STATUS.md",
+      "bytes": 521,
+      "sha256": "f039d2c58b4a0168e2f1442acc1fef9e968f2da2b333681796c259c623b8c26a"
+    },
+    {
+      "path": ".lgpd-templates/transfers/transfer-template.md",
+      "bytes": 200,
+      "sha256": "53e36b3ae01b1b0435144159c53e0e70262ae528451759d400fbce084e518ca4"
+    },
+    {
+      "path": ".lgpd-templates/vendors/vendor-template.md",
+      "bytes": 246,
+      "sha256": "44dcfdcb532600ef5780d3071b0ed9e878376f9c25627ecc57a701c9ebf20fdd"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 238,
+      "sha256": "522520cbb0bc174701de18e2462b507be4de4c6a3d91073348ba6af5de6f41d6"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 970,
+      "sha256": "3a62762f253f1142959966acf35eef6c2a914a177c88566b1afe660a65ca55b0"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 203,
+      "sha256": "b1a7cf7db58f36ab00ae17be172801082f78063a5de8f0630aeb7906b603eb9f"
+    },
+    {
+      "path": "privacy/automated-decisions.template.csv",
+      "bytes": 79,
+      "sha256": "67162733b33d27443c22c4c934370b9bb8e97d4691f6789d2cc2b0acc50824ca"
+    },
+    {
+      "path": "privacy/data-inventory.template.csv",
+      "bytes": 406,
+      "sha256": "f563529d4032886def27d6142f077adf70fc0b1efd4d54b73c108e71e098fc45"
+    },
+    {
+      "path": "privacy/dsar-log.template.csv",
+      "bytes": 94,
+      "sha256": "adaba87a14952ae338913f345b3c02b68c59ea9987d1cd9b7a715eebe65ad500"
+    },
+    {
+      "path": "privacy/eca-digital.template.csv",
+      "bytes": 145,
+      "sha256": "15f59d038e5f1822215379996a7e1ec668dc42ba527d94bf03128133b05dffd9"
+    },
+    {
+      "path": "privacy/legal-basis-matrix.template.csv",
+      "bytes": 180,
+      "sha256": "ce24da01679948ba403fa96c54d1b9e3eb227b4b7c0330a614d4a023639dc144"
+    },
+    {
+      "path": "privacy/lia.template.csv",
+      "bytes": 108,
+      "sha256": "e94aba085c2f72ba0ce976c1e8a6342a7eb5fd5dad86f38b631c9ba3b92f28df"
+    },
+    {
+      "path": "privacy/privacy-review-pr-template.md",
+      "bytes": 1442,
+      "sha256": "32384dd49bd9515f430b6dd0288333584393d37f80e5c78f6f9d5eb6f0f9223d"
+    },
+    {
+      "path": "privacy/retention-schedule.template.csv",
+      "bytes": 149,
+      "sha256": "85cf0955f8bdbaaa4144170fe293e4e1dbfe0cb4a7e7b8941e10f4d60a54b3f0"
+    },
+    {
+      "path": "privacy/risk-register.template.csv",
+      "bytes": 147,
+      "sha256": "70afc05be2b971349b17375047ebad0f69af0b323521d824a4929d71a5c921b4"
+    },
+    {
+      "path": "privacy/ropa.template.csv",
+      "bytes": 236,
+      "sha256": "b8238f56680aab92bc487949c559d552f33b0b223df10290dd561658715cd428"
+    },
+    {
+      "path": "privacy/tracker-inventory.template.csv",
+      "bytes": 303,
+      "sha256": "42a5b853141a93af8960dae08d30a39e55d67e755bb4fb3472c33b888e2210a9"
+    },
+    {
+      "path": "privacy/transfer-assessment.template.csv",
+      "bytes": 104,
+      "sha256": "d3b99b417877d94e803fcc782b652dd78b17ee1e507fdfa29018a475748c122c"
+    },
+    {
+      "path": "privacy/vendor-audit.template.csv",
+      "bytes": 131,
+      "sha256": "981e11ab0ab2b8a57b75e8e078dbebbaa18ac883189d0699ec3b8a533ab1a410"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2762,
+      "sha256": "197fe99345a98482facae54f560d1bea8d1346bdc9102d35d38c6e625eaa2057"
+    },
+    {
+      "path": "references/normative-reference.md",
+      "bytes": 2183,
+      "sha256": "c5287048cfe3719134160c64ee5518f5340fba639b98dd2baeb5a2b0b83b715a"
+    },
+    {
+      "path": "security/privacy-incident-register.template.csv",
+      "bytes": 294,
+      "sha256": "37bde5b51e6368195062d2b8e6d33f5743424364e4a058ecea1736dc96edb6d5"
+    },
+    {
+      "path": "security/security-controls.template.csv",
+      "bytes": 52,
+      "sha256": "f5bc9f6fb01f889a65aa5d803aac794f284b548d5d149db30231d59aedb3367a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 90333,
+      "sha256": "9f1b100565841058fe26c00712c9b865f3880d7ff3d5ff32190c0a812ff77359"
+    }
+  ]
+}

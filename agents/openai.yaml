@@ -1,0 +1,4 @@
+interface:
+  display_name: "LGPD SaaS Brasil"
+  short_description: "Auditoria LGPD para SaaS no Brasil"
+  default_prompt: "Use $lgpd-saas-brasil-compliance-skill para auditar um SaaS brasileiro e gerar evidências técnicas de LGPD."

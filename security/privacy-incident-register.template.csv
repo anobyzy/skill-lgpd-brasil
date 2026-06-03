@@ -1,0 +1,1 @@
+incident_id,detected_at,reported_by,systems_affected,data_categories,subjects_estimated,sensitive_data,minors_data,financial_data,auth_data,large_scale,root_cause,risk_assessment,contained_at,notified_anpd,notified_subjects,notified_customers,decision_reason,evidence,closed_at,lessons_learned
