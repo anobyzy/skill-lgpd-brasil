@@ -1,6 +1,6 @@
 {
   "name": "lgpd-saas-brasil-compliance-skill",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "author": {
     "name": "Anobyzy",
     "email": "anobyzy@gmail.com"
@@ -108,8 +108,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 970,
-      "sha256": "3a62762f253f1142959966acf35eef6c2a914a177c88566b1afe660a65ca55b0"
+      "bytes": 1391,
+      "sha256": "98dc2d3b04ea760765a29d31018e950ad212e300ad8462a3e9794f20c796dd30"
     },
     {
       "path": "LICENSE",
@@ -183,8 +183,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3484,
-      "sha256": "8fca964b910ff9a961631d88b16bad81d144f62c55045419aabfb878f659491a"
+      "bytes": 3602,
+      "sha256": "7cb8cf446f6a1b2c4a22476f088487fdf970bb4b8cdfb121df182cdcdc11d185"
     },
     {
       "path": "references/normative-reference.md",
@@ -203,8 +203,8 @@
     },
     {
       "path": "SKILL.md",
-      "bytes": 90314,
-      "sha256": "ffaf42a3a1fe0a7a6b8e690f9cc207ff4ad6ff0122b8527569b1f23649852449"
+      "bytes": 27521,
+      "sha256": "1aedf5f1589ba4cb90444f52b2f9c4477d678cf1d520efe7c25d030bcc8fe4e0"
     }
   ]
 }

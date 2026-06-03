@@ -42,7 +42,7 @@ lgpd-saas-brasil-compliance-skill
 Prompt recomendado:
 
 ```text
-Use $lgpd-saas-brasil-compliance-skill para auditar este repositório. Mapeie dados pessoais, cookies, SDKs, fornecedores, transferências internacionais, riscos de segurança, direitos do titular e lacunas LGPD. Gere ou atualize artefatos em .lgpd/ e privacy/. Corrija o que for técnico e bloqueie o release se houver risco crítico.
+Use $lgpd-saas-brasil-compliance-skill para auditar este repositório. Mapeie dados pessoais, cookies, SDKs, fornecedores, transferências internacionais, riscos de segurança, direitos do titular e lacunas LGPD. Gere ou atualize evidências em .lgpd/ e documentos auxiliares em privacy/ quando necessário. Corrija o que for técnico e bloqueie o release se houver risco crítico.
 ```
 
 ## Saídas Esperadas
@@ -63,7 +63,9 @@ Quando aplicável, a skill orienta o agente a gerar ou atualizar:
 - `.lgpd/retention-schedule.md`;
 - `.lgpd/eca-digital.md`;
 - `.lgpd/automated-decisions.md`;
+- `.lgpd/security-controls.md`;
 - `.lgpd/gaps.md`;
+- `.lgpd/privacy-compliance-report.md`;
 - `privacy/privacy-review-pr-template.md`;
 - `privacy/privacy-test-plan.md`.
 

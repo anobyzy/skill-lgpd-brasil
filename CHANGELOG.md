@@ -1,9 +1,17 @@
 # CHANGELOG
 
+## v2.1.0 — 2026-06-03
+
+- Reescreve `SKILL.md` para remover histórico interno de criação e referências a materiais originais.
+- Consolida as instruções em um único fluxo operacional.
+- Define `.lgpd/` como diretório canônico de evidências.
+- Corrige a lógica de templates para impedir geração em arquivos `*.template.*`.
+- Alinha critérios de blockers, aprovação técnica, saídas e relatório final.
+
 ## v2.0.1 — 2026-06-03
 
 - Corrige o frontmatter de `SKILL.md` para o formato validável de skill.
-- Inclui metadados de autoria de Anobyz.
+- Inclui metadados de autoria de Anobyzy.
 - Atualiza `README.md` para publicação no GitHub por SSH.
 - Adiciona metadados de interface em `agents/openai.yaml`.
 - Regera `MANIFEST.json` com os arquivos atualmente presentes no pacote.
