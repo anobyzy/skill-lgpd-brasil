@@ -1,11 +1,11 @@
-# LGPD SaaS Brasil Compliance Skill
+# Skill LGPD SaaS Brasil Compliance
 
 Skill em pt-BR para orientar agentes de engenharia na auditoria técnica e documental de LGPD, privacidade, cookies, SDKs, rastreadores, retenção, incidentes, fornecedores, transferências internacionais e controles mínimos de segurança em SaaS no Brasil.
 
 ## Autor
 
-- Nome: Anobyz
-- Email: arh.sabrina@gmail.com
+- Nome: Anobyzy
+- Email: anobyzy@gmail.com
 - Revisão do pacote: 2026-06-03
 - Versão: 2.0.1
 
@@ -14,7 +14,7 @@ Skill em pt-BR para orientar agentes de engenharia na auditoria técnica e docum
 Para uso como skill local, mantenha a pasta com o mesmo nome do frontmatter:
 
 ```powershell
-git clone git@github.com:Anobyz/lgpd-saas-brasil-compliance-skill.git
+git clone git@github.com:Anobyzy/skill-lgpd-brasil.git
 ```
 
 Depois aponte o agente para `SKILL.md` ou instale a pasta no diretório de skills do seu ambiente.
@@ -44,7 +44,7 @@ git init
 git add .
 git commit -m "release: prepare lgpd compliance skill"
 git branch -M main
-git remote add origin git@github.com:Anobyz/lgpd-saas-brasil-compliance-skill.git
+git remote add origin git@github.com:Anobyzy/skill-lgpd-brasil.git
 git push -u origin main
 ```
 

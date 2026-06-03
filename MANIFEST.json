@@ -2,8 +2,8 @@
   "name": "lgpd-saas-brasil-compliance-skill",
   "version": "2.0.1",
   "author": {
-    "name": "Anobyz",
-    "email": "arh.sabrina@gmail.com"
+    "name": "Anobyzy",
+    "email": "anobyzy@gmail.com"
   },
   "generated_on": "2026-06-03",
   "manifest_excludes": [
@@ -113,8 +113,8 @@
     },
     {
       "path": "LICENSE",
-      "bytes": 203,
-      "sha256": "b1a7cf7db58f36ab00ae17be172801082f78063a5de8f0630aeb7906b603eb9f"
+      "bytes": 1064,
+      "sha256": "d601a67de66fcd992571cc1e27a4f024fa24e1e2055100e792a3557f04fdbc7d"
     },
     {
       "path": "privacy/automated-decisions.template.csv",
@@ -183,8 +183,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2762,
-      "sha256": "197fe99345a98482facae54f560d1bea8d1346bdc9102d35d38c6e625eaa2057"
+      "bytes": 2729,
+      "sha256": "dc9a6b806fdb4db869aee564b085ada00323ce3ad8969281cc2ebed280c0a013"
     },
     {
       "path": "references/normative-reference.md",
@@ -203,8 +203,8 @@
     },
     {
       "path": "SKILL.md",
-      "bytes": 90333,
-      "sha256": "9f1b100565841058fe26c00712c9b865f3880d7ff3d5ff32190c0a812ff77359"
+      "bytes": 90314,
+      "sha256": "ffaf42a3a1fe0a7a6b8e690f9cc207ff4ad6ff0122b8527569b1f23649852449"
     }
   ]
 }

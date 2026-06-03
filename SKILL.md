@@ -1,12 +1,12 @@
 ---
 name: lgpd-saas-brasil-compliance-skill
 description: "Use when auditing or implementing LGPD/privacy compliance for Brazilian SaaS, web apps, mobile apps, APIs, cookies, SDKs, analytics, ads, billing, support, logs, AI, DSAR, ROPA, RIPD/LIA, international transfers, incidents, vendors, privacy policies, consent, retention, security controls, or release blockers."
-license: "All rights reserved"
+license: "MIT"
 metadata:
   version: "2.0.1"
   language: "pt-BR"
-  author: "Anobyz"
-  author_email: "arh.sabrina@gmail.com"
+  author: "Anobyzy"
+  author_email: "anobyzy@gmail.com"
   last_reviewed: "2026-06-03"
   risk_posture: "conservadora"
   intended_agents: "Codex, Claude Code, Gemini CLI / Gemini Code Assist e outros agentes de engenharia com acesso ao repositório"
