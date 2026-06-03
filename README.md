@@ -14,7 +14,7 @@ Skill em pt-BR para orientar agentes de engenharia na auditoria técnica e docum
 Para uso como skill local, mantenha a pasta com o mesmo nome do frontmatter:
 
 ```powershell
-git clone git@github.com:Anobyzy/skill-lgpd-brasil.git
+git clone ssh://git@github.com/anobyzy/skill-lgpd-brasil.git
 ```
 
 Depois aponte o agente para `SKILL.md` ou instale a pasta no diretório de skills do seu ambiente.
@@ -44,7 +44,7 @@ git init
 git add .
 git commit -m "release: prepare lgpd compliance skill"
 git branch -M main
-git remote add origin git@github.com:Anobyzy/skill-lgpd-brasil.git
+git remote add origin ssh://git@github.com/anobyzy/skill-lgpd-brasil.git
 git push -u origin main
 ```
 
