@@ -1,53 +1,53 @@
-# Skill LGPD SaaS Brasil Compliance
+# Skill LGPD SaaS Brazil Compliance
 
-Skill em pt-BR para orientar agentes de engenharia na auditoria técnica e documental de LGPD, privacidade, cookies, SDKs, rastreadores, retenção, incidentes, fornecedores, transferências internacionais e controles mínimos de segurança em SaaS no Brasil.
+Portuguese-Brazilian skill that guides engineering agents through technical and documentation audits for LGPD, privacy, cookies, SDKs, trackers, retention, incidents, vendors, international transfers, and minimum security controls for SaaS products in Brazil.
 
-## O Que Ela Faz
+## What It Does
 
-A skill instrui o agente a mapear tratamentos de dados pessoais no código, documentação, infraestrutura e fornecedores, gerar evidências de conformidade e apontar bloqueadores técnicos antes de release.
+The skill instructs the agent to map personal data processing across code, documentation, infrastructure, and vendors, generate compliance evidence, and identify technical blockers before release.
 
-Ela cobre, entre outros pontos:
+It covers, among other topics:
 
-- inventário de dados pessoais, sensíveis e de crianças/adolescentes;
-- bases legais, legítimo interesse, consentimento e retenção;
-- cookies, SDKs, analytics, publicidade e rastreadores;
-- DSAR, ROPA, RIPD, LIA, incidentes e transferência internacional;
-- fornecedores, subprocessadores, logs, segurança e controles de acesso;
-- alinhamento entre código, política de privacidade e artefatos de auditoria.
+- inventory of personal, sensitive, and child/adolescent data;
+- legal bases, legitimate interest, consent, and retention;
+- cookies, SDKs, analytics, advertising, and trackers;
+- DSAR, ROPA, RIPD, LIA, incidents, and international transfers;
+- vendors, subprocessors, logs, security, and access controls;
+- alignment between code, privacy policy, and audit artifacts.
 
-## Quando Usar
+## When To Use
 
-Use esta skill ao implementar, revisar ou auditar funcionalidades que tratem dados pessoais em SaaS, aplicativos web, aplicativos móveis, APIs, checkout, billing, suporte, CRM, analytics, anúncios, IA, automações, integrações, webhooks, logs, cookies ou SDKs.
+Use this skill when implementing, reviewing, or auditing features that process personal data in SaaS products, web apps, mobile apps, APIs, checkout, billing, support, CRM, analytics, ads, AI, automations, integrations, webhooks, logs, cookies, or SDKs.
 
-Também use quando o pedido envolver LGPD, privacidade, cookies, DPO, ANPD, privacy by design, relatório de impacto, incidentes, direitos do titular ou revisão de política de privacidade.
+Also use it when the request involves LGPD, privacy, cookies, DPO, ANPD, privacy by design, impact reports, incidents, data subject rights, or privacy policy review.
 
-## Instalação
+## Installation
 
-Clone o repositório:
+Clone the repository:
 
 ```powershell
 git clone ssh://git@github.com/anobyzy/skill-lgpd-brasil.git
 ```
 
-Para instalação local, use a pasta como skill no ambiente do agente ou aponte o agente diretamente para `SKILL.md`.
+For local installation, use the folder as a skill in the agent environment or point the agent directly to `SKILL.md`.
 
-O nome da skill no frontmatter é:
+The skill name in the frontmatter is:
 
 ```text
 lgpd-saas-brasil-compliance-skill
 ```
 
-## Como Usar
+## How To Use
 
-Prompt recomendado:
+Recommended prompt:
 
 ```text
-Use $lgpd-saas-brasil-compliance-skill para auditar este repositório. Mapeie dados pessoais, cookies, SDKs, fornecedores, transferências internacionais, riscos de segurança, direitos do titular e lacunas LGPD. Gere ou atualize evidências em .lgpd/ e documentos auxiliares em privacy/ quando necessário. Corrija o que for técnico e bloqueie o release se houver risco crítico.
+Use $lgpd-saas-brasil-compliance-skill to audit this repository. Map personal data, cookies, SDKs, vendors, international transfers, security risks, data subject rights, and LGPD gaps. Generate or update evidence in .lgpd/ and supporting documents in privacy/ when needed. Fix technical issues and block the release if there is critical risk.
 ```
 
-## Saídas Esperadas
+## Expected Outputs
 
-Quando aplicável, a skill orienta o agente a gerar ou atualizar:
+When applicable, the skill guides the agent to generate or update:
 
 - `.lgpd/STATUS.md`;
 - `.lgpd/data-map.md`;
@@ -69,16 +69,16 @@ Quando aplicável, a skill orienta o agente a gerar ou atualizar:
 - `privacy/privacy-review-pr-template.md`;
 - `privacy/privacy-test-plan.md`.
 
-## Estrutura Do Pacote
+## Package Structure
 
-- `SKILL.md`: instruções principais da skill.
-- `agents/openai.yaml`: metadados de interface para ambientes que suportam skills.
-- `references/`: referência normativa resumida.
-- `privacy/`: templates CSV e Markdown para inventários, bases legais, retenção, riscos, cookies, DSAR, LIA, ROPA, fornecedores e PR review.
-- `security/`: templates de incidentes e controles de segurança.
-- `.lgpd-templates/`: modelos para artefatos vivos em `.lgpd/`.
-- `MANIFEST.json`: manifesto com hashes SHA-256 dos arquivos do pacote.
+- `SKILL.md`: main skill instructions.
+- `agents/openai.yaml`: interface metadata for environments that support skills.
+- `references/`: summarized regulatory reference.
+- `privacy/`: CSV and Markdown templates for inventories, legal bases, retention, risks, cookies, DSAR, LIA, ROPA, vendors, and PR review.
+- `security/`: incident and security control templates.
+- `.lgpd-templates/`: templates for living artifacts in `.lgpd/`.
+- `MANIFEST.json`: manifest with SHA-256 hashes for package files.
 
-## Limite
+## Limitation
 
-Esta skill não substitui revisão jurídica humana e não é parecer jurídico. Ela reduz risco por meio de evidência técnica, minimização, governança, rastreabilidade e correção de lacunas verificáveis.
+This skill does not replace human legal review and is not legal advice. It reduces risk through technical evidence, minimization, governance, traceability, and remediation of verifiable gaps.
